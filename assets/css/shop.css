@@ -73,9 +73,9 @@ body{
 .nav2{
 	border-bottom: 1px dashed rgba(185, 181, 181, 0.565);
 }
-.logo{
+/* .logo{
 	width: 100px;
-}
+} */
 nav{
 	padding-top: 7px;
 }
@@ -118,7 +118,185 @@ nav{
 	text-decoration: underline1;
 }
 
+/* clay bowl start */
+.clay-bowl{
+	margin-top: 50px;
+}
+.col-bowl-con{
+	margin-left: 50px;
+}
+.col-bowl-con h2{
+	font-family: var(--kaisei-fonts);
+	font-size: var(--fs-48);
+	color: var(--primary-color);
+	font-weight: var(--fw-600);
+}
+.col-bowl-con h4{
+	font-size: var(--fs-46);
+	font-weight: var(--fw-200);
+	color:var(--primary-color);
+}
+.col-bowl-con h4 span{
+	font-style: italic;
+	font-weight: var(--fw-300);
+}
+.col-bowl-con h6 i{
+	font-size: 12px;
+	color: var(--primary-color);
+}
+.col-bowl-con h6{
+	font-size: var(--fs-14);
+	font-weight: var(--fw-400);
+	color: var(--primary-color);
+	font-family: var(--inner);
+}
+.col-bowl-con p{
+	font-size: var(--fs-14);
+	color: var(--primary-color);
+	margin-top: 20px;
+	font-family: var(--inner);
+	font-weight: var(--fw-200);
+}	
+.col-bowl-con h5{
+	font-size: var(--fs-14);
+	font-family: var(--inner);
+	letter-spacing: 2px;
+	color: var(--primary-color);
+	font-weight: var(--fw-500);
+	margin-bottom: 20px;
+}
+.col-bowl-con h5 span i{
+	margin-top: 10px;
+	font-size: var(--fs-14);
+	font-weight: var(--fw-500);
+}
+.col-bowl-con h5 span{
+	font-size: var(--fs-14);
+}
+.col-bowl-con h3{
+	font-size: var(--fs-14);
+	font-weight: var(--fw-500);
+	color:var(--primary-color);
+	margin-bottom: 10px;
+}
+.col-bowl-con h3 span{
+	font-weight: var(--fw-400);
+}
+.col-bowl-con h3 button{
+	background-color:var(--primary-color);
+	border: 1px solid var(--primary-color);
+	color: var(--secondary-color);
+	font-weight: var(--fw-500);
+}
+.col-bowl-con h3 button:hover{
+	background-color: transparent;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	transition: 0.3s;
+}
+/* col-bowl end  */
 
+/* navbar-tabs start  */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+hr {
+    margin: 1rem 0;
+    color: #737372dc;
+    border: 0;
+    border-top: 0.5px solid;
+    opacity: .25;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--fw-600);
+    color: var(--primary-color);
+
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--orange-color);
+}
+.navbar-tabs{
+	margin-top: 80px;
+}
+.de-1 p{
+	font-size:15px;
+	color: var(--primary-color);
+	font-weight: var(--fw-200);
+	font-family: var(--inner);
+	margin-bottom: 0;
+}
+.de-2 p{
+	font-size: 15px;
+	font-family: var(--inner);
+	color: var(--primary-color);
+	font-weight: var(--fw-200);
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+.dem-2{
+	margin-left: 15px;
+	margin-bottom: 9.5px;
+}
+.dem-2 h3{
+	font-size: var(--fs-16);
+	color: var(--primary-color);
+	font-family: var(--inner);
+	letter-spacing: 3px;
+	font-weight: var(--fw-600);
+}
+.dem-2 h3 span{
+	font-size: var(--fs-14);
+	font-weight: var(--fw-400);
+}
+.dem-2 h4{
+	font-size: var(--fs-16);
+	color: var(--primary-color);
+	font-weight: var(--fw-600);
+	letter-spacing: 2px;
+}
+.dem-2 h4 span{
+	font-weight: var(--fw-400);
+	font-size: var(--fs-14);
+}
+.dem-3 h3{  
+	font-size: var(--fs-28);
+	color: var(--primary-color);
+	font-family: var(--kaisei-fonts);
+	font-weight: var(--fw-600);
+	margin-bottom: 5px;
+}
+.re-1-img img{
+	width: 81px;
+	height: 81px;
+	margin: 0 36px 0 0 ;
+}
+.re-1-con i{
+	font-size:10px;
+	color: var(--primary-color);
+	margin-bottom: 10px;
+}
+.re-1-con h5{
+	font-size: var(--fs-17);
+	color: var(--primary-color);
+	font-family: var(--inner);
+	letter-spacing: 1.9px;
+}
+.re-1-con h5 span{
+	color:#7b3f1484;
+}
+.re-1-con p{
+	font-size: var(--fs-16);
+	font-family: var(--inner);
+	color: var(--primary-color);
+	
+}
+/* order start  */
 .order{
 	padding-top: 40px;
 	padding-bottom: 50px;
@@ -176,7 +354,7 @@ nav{
 	color: var(--primary-color);
 	transition: 0.5s;
 }
-
+/* order end  */
 
 
 
